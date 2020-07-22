@@ -74,7 +74,10 @@ header {
     padding: 6px 0;
 }
 .affix {
-    top:0; left:0; right:0; z-index: 10;
+    top:0; 
+    left:0; 
+    right:0; 
+    z-index: 10;
 }
 .menu-nav li a{
     font: 400 18px 'Montserrat'; 
@@ -100,6 +103,10 @@ nav .menu-nav{
 }
 
 /* incl */
+.inclusions_title a:hover{
+    text-decoration: none;
+}
+
 .padtop60 {
     padding-top: 60px;
 }
