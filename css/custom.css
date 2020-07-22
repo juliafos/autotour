@@ -98,10 +98,11 @@ nav .menu-nav{
 .navbar-default .navbar-nav > li.active > a,.navbar-default .navbar-nav > li.active > a:hover{
     background:#f3f3f3;
 }
+
+/* incl */
 .padtop60 {
     padding-top: 60px;
 }
-
 .tour-incl li a {
     font: 400 26px 'Nunito', sans-serif; text-transform: uppercase;
     color:#4c515a;
@@ -109,7 +110,6 @@ nav .menu-nav{
     background:#efefef;
     border-bottom:5px solid #efefef;
 }
-
 .tour-incl li.active a {
     background:#fff; 
     border-bottom: 5px solid #dedede;
@@ -134,21 +134,23 @@ nav .menu-nav{
     left: -25px; 
     color: #55ac45; 
     font-size: 12px;
-}
-    
+} 
+/* incl end   */
+
+
 .cursor{ 
     cursor:pointer;
 }
-
 .name {
     visibility: hidden; 
     position: absolute;
 }
 #request {
-    font-family: 'Roboto Condensed';
+    font-family: 'Montserrat';
 }
 .form-control {
-    font:300 21px 'Roboto Condensed'; height: 50px; 
+    font:300 21px 'Montserrat'; 
+    height: 50px; 
     padding:10px 15px; 
     border: 1px solid #e0e0e0; 
     box-shadow:none; 
@@ -157,11 +159,25 @@ nav .menu-nav{
 .form-control:focus {
     border-color: #b6b6b6; box-shadow:none;
 }
-.btn-success {font:400 21px 'Roboto Condensed'; text-transform: uppercase; padding:10px 25px; border: none; border-radius: 4px; margin-right:15px;}
+.btn-success {
+    font: 400 18px 'Montserrat'; 
+    text-transform: uppercase; 
+    padding:10px 25px; 
+    border: none; 
+    border-radius: 4px; 
+    margin-right:15px;}
 
 
-.btn-danger {font:400 21px 'Roboto Condensed'; text-transform: uppercase; background:#e6958a; color:#4c515a; padding:10px 25px; border: none; border-radius:0;}
-.btn-danger:hover {background:#e9a49a; color:#4c515a; text-decoration: none;}
+.btn-danger {
+    font:400 21px 'Montserrat'; 
+    text-transform: uppercase; background:#e6958a; color:#4c515a; padding:10px 25px; 
+    border: none; border-radius:0;
+}
+.btn-danger:hover {
+    background:#e9a49a; 
+    color:#4c515a; 
+    text-decoration: none;
+}
 .btn-danger:active {background:#d6877c;}
 
 
