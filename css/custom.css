@@ -137,6 +137,13 @@ nav .menu-nav{
 } 
 /* incl end   */
 
+/* gallery */
+.slick-slider img{
+    width: 100%;
+    padding: 0 4px;
+}
+/* gallery end */
+
 
 .cursor{ 
     cursor:pointer;
