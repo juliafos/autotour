@@ -149,12 +149,12 @@ nav .menu-nav{
     font-family: 'Montserrat';
 }
 .form-control {
-    font:300 21px 'Montserrat'; 
+    font:300 18px 'Montserrat'; 
     height: 50px; 
     padding:10px 15px; 
     border: 1px solid #e0e0e0; 
     box-shadow:none; 
-    margin-bottom: 20px;
+    margin: 12px 0;
 }
 .form-control:focus {
     border-color: #b6b6b6; box-shadow:none;
@@ -162,14 +162,14 @@ nav .menu-nav{
 .btn-success {
     font: 400 18px 'Montserrat'; 
     text-transform: uppercase; 
-    padding:10px 25px; 
+    padding: 10px 25px; 
     border: none; 
-    border-radius: 4px; 
-    margin-right:15px;}
-
+    border-radius: 4px;
+    margin: 20px 0; 
+}
 
 .btn-danger {
-    font:400 21px 'Montserrat'; 
+    font:400 18px 'Montserrat'; 
     text-transform: uppercase; background:#e6958a; color:#4c515a; padding:10px 25px; 
     border: none; border-radius:0;
 }
