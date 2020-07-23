@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body{
-    position: relative; font: 14px 'Open Sans', sans-serif; color:#4c515a;
+    position: relative; font: 14px 'Open Sans', sans-serif; color:#1a1a1a;
 }
 h1 {
     font:600 32px 'Montserrat', sans-serif;
@@ -27,30 +27,38 @@ h4 {
     font:400 18px 'Nunito', sans-serif;
 }
 a {
-    color:#0091cc;
+    color:#f39d17;
+}
+a:hover{
+    color: #e98e00;
 }
 header{
     background: url('../img/uzbekistan-background.jpg');
     background-position: center;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat; 
+    height:350px; 
+}
+header img{
+    display: block;
+    margin: auto;
+    padding-top: 70px;
 }
 
-header h2{
+.introduction{
+    font-family: 'Nunito';
+    font-weight: 300;
     font-size: 30px;
     color: #fff;
     text-align: center;
-    padding-top: 30px;
-    margin-top: 0;
+    margin-bottom: 0 !important;
 }
 li{
     list-style: none;
 }
 .top {
-    background: #34383e; padding: 1em 0;}
-header {
-    height:350px;
+    background: #1a1a1a; 
+    padding: 1em 0;
 }
-
 .summary{
     font: 300 19px 'Nunito', sans-serif; margin-bottom: 20px;}
 .summary span{
@@ -61,16 +69,16 @@ header {
     margin-top: 18px;
 }
 .price span {
-    font-size: 28px; font-weight: 700; color:#00adee;}
+    font-size: 28px; font-weight: 700; color:#f39d17;}
 .supl{
     font:400 16px 'Montserrat'; 
     margin-top: 8px;}
 .supl span {
-    color:#00adee;
+    color:#f39d17;
     font-weight: 800;
 }
 .menu-line {
-    background:#169ad0;
+    background:#f39d17;
     padding: 6px 0;
 }
 .affix {
@@ -139,8 +147,8 @@ nav .menu-nav{
     max-width: 0; 
     max-height: 0; 
     left: -25px; 
-    color: #55ac45; 
-    font-size: 12px;
+    color: #1a1a1a; 
+    font-size: 10px;
 } 
 /* incl end   */
 
@@ -174,6 +182,7 @@ nav .menu-nav{
     border-color: #b6b6b6; box-shadow:none;
 }
 .btn-success {
+    background: #f39d17;
     font: 400 18px 'Montserrat'; 
     text-transform: uppercase; 
     padding: 10px 25px; 
@@ -182,17 +191,9 @@ nav .menu-nav{
     margin: 20px 0; 
 }
 
-.btn-danger {
-    font:400 18px 'Montserrat'; 
-    text-transform: uppercase; background:#e6958a; color:#4c515a; padding:10px 25px; 
-    border: none; border-radius:0;
+.btn-success:hover{
+    background: #e98e00;
 }
-.btn-danger:hover {
-    background:#e9a49a; 
-    color:#4c515a; 
-    text-decoration: none;
-}
-.btn-danger:active {background:#d6877c;}
 
 
 footer {
