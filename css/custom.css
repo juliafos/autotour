@@ -264,6 +264,7 @@ footer {
 }
 
 .btn-link{
+    margin-bottom: 8px;
     padding: 0;
     width: 100%;
     text-align: left;
@@ -283,7 +284,7 @@ footer {
 }
 
 .btn-link span{
-    padding: 8px 12px;
+    padding: 9px 16px;
     border-radius: 2px;
     font-size: 18px;
     color: #fff;
@@ -315,7 +316,7 @@ footer {
 }
 
 .card-body{
-    padding: 0 60px 0;
+    padding: 10px 22px 20px;
     font-size: 17px;
     color: #34383e;
     line-height: 25px;
