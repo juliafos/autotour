@@ -316,7 +316,7 @@ footer {
 }
 
 .card-body{
-    padding: 10px 22px 20px;
+    padding: 10px 26px 20px;
     font-size: 17px;
     color: #34383e;
     line-height: 25px;
@@ -327,6 +327,8 @@ footer {
    font-size: 19px; 
    font-weight: 600;
    margin-right: 12px;
+   width: 74px;
+   display: inline-block;
 }
 
 .card-body li{
