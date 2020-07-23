@@ -160,14 +160,14 @@ nav .menu-nav{
 }
 #inc > ul > li:before,
 #exc > ul > li:before {
-    content:'\25A0'; 
+    content:'\0025B6'; 
     display: block; 
     position: relative; 
     max-width: 0; 
     max-height: 0; 
     left: -25px; 
-    color: #1a1a1a; 
-    font-size: 10px;
+    color: #f39d17; 
+    font-size: 12px;
 } 
 /* incl end   */
 
